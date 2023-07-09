@@ -1,207 +1,526 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Minimal by Steve Smith</title>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Hi, this is Nelson. Please DELETE the <script> block below (L6-L13)
+          if you use this HTML, otherwise my analytics will track your page. -->
+	    <!-- <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                                     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                                    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-51640218-1', 'auto');
+            ga('send', 'pageview');
+        </script> -->
+        <title>Pei Zhou</title>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <meta property="og:url" content="https://shaoxia57.github.io" />
+	    <meta property="og:title" content="Pei Zhou" />
+	    <meta property="og:image" content="https://shaoxia57.github.io/img/pei_rainier.jpg" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="author" content="Pei Zhou">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- <link rel="shortcut icon" type="image/png" href="favicon.ico"/> -->
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Minimal</h1>
-        <p>A Theme for GitHub Pages</p>
-        <p class="view"><a href="http://github.com/orderedlist/minimal">View the Project on GitHub <small>orderedlist/minimal</small></a></p>
-        <ul>
-          <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/orderedlist/minimal/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="http://github.com/orderedlist/minimal">Fork On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h1>GitHub Flavored Markdown</h1>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+        <link href='https://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+        <div class="container mt-5">
+            <div class="row mb-3">
+                <div class="col-lg-3 col-md-4">
+                    <img class="img-fluid rounded" src="img/pei_rainier.jpeg" alt="Pei Zhou">
+                    <p>
+                        <i class="fa fa-envelope pt-3"></i> peiz@usc.edu
+                    <!-- </br>
+                        <i class="fa fa-building"></i> Gates 318 -->
+                    </p>
+                </div>
+                <div class="col-lg-9 col-md-8">
+                    <h1>Pei Zhou</h1>
+                    <p>
+                        I am a fourth-year PhD candidate in computer science at
+                        <a href="https://www.cs.usc.edu/" target="_blank">University of Southern California</a>, 
+                        where I work in the <a href="https://nlp.usc.edu/"
+                        target="_blank">USC-NLP Group</a>.
+                        My advisors are <a href="https://shanzhenren.github.io/"
+                        target="_blank">Xiang Ren</a> and <a href="https://www.jaypujara.org/"
+                        target="_blank">Jay Pujara</a>. Recently, I'm interested in building and evaluating
+                        communicating agents based on large language models, with focus on theory-of-mind and reasoning to reach common ground.
+                    </p>
+                    <p>
+                        Previously, I received undergraduate degrees in Mathematics of Computation from the University of
+                        California, Los Angels (UCLA), where I worked
+                        with <a href="http://web.cs.ucla.edu/~kwchang/#kai-wei-chang"
+                                target="_blank">Kai-Wei Chang</a> and <a href="http://web.cs.ucla.edu/~yzsun/"
+                                target="_blank">Yizhou Sun</a>. I've also spent time 
+                        at the <a href="http://allenai.org/"
+                                  target="_blank">Allen Institute for Artificial
+                        Intelligence (AI2)</a> (working
+                        with <a href="http://prithvirajva.com/"
+                                target="_blank">Prithviraj Ammanabrolu</a>, 
+                                <a href="https://www.cis.upenn.edu/~ccb/" target="_blank">Chris Callison-Burch</a>, and
+                                <a href="https://homes.cs.washington.edu/~yejin/" target="_blank">Yejin Choi</a>), and
+                        the <a href="http://www.isi.edu" target="_blank">Amazon Alexa AI</a> (working
+                        with <a href="https://scholar.google.com/citations?user=w90wOucAAAAJ&hl=en"
+                                target="_blank">Yang Liu</a> and
+                        <a href="https://scholar.google.com/citations?user=GMcL_9kAAAAJ&hl=en" target="_blank">Dilek Hakkani-Tur</a>).
+                    </p>
+                    <p>
+                        Currently, I am a Research Intern at <a href="https://bard.google.com/"
+                                  target="_blank">Google Bard</a> (working
+                        with <a href="http://shyamupa.com/"
+                                target="_blank">Shyam Upadhyay</a>, <a href="https://www.manaalfaruqui.com/"
+                                target="_blank">Manaal Faruqui</a>, <a href="https://swarooprm.github.io/"
+                                target="_blank">Swaroop Mishra</a>, and
+                                <a href="http://www.aidanematzadeh.me/" target="_blank">Aida Nematzadeh</a>).
+                    </p>
+                    <p>
+                        [<a href="files/peiz_CV.pdf" target="_blank">Full CV</a>] [<a href="https://twitter.com/peizNLP" target="_blank">Twitter</a>] 
+                        [<a href="https://github.com/shaoxia57" target="_blank">Github</a>] [<a href="https://scholar.google.com/citations?user=13PGDZsAAAAJ&hl=en" target="_blank">Google Scholar</a>] 
+                        [<a href="https://www.semanticscholar.org/author/Pei-Zhou/1557324013" target="_blank">Semantic Scholar</a>]
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2>Recent News</h2>
+                    <ul>
+                        <li>
+                            [July 2023] Attending <a href = "https://2023.aclweb.org/" 
+                            target="_blank">ACL</a> at Toronto, come say hi! I'll be presenting our 
+                            <a href = "https://arxiv.org/pdf/2212.10060.pdf" target="_blank">paper</a> on a 
+                            Dungeon Master-like dialogue agent in D&D with theory-of-mind and RL!
+                        </li>
+                        <li>
+                            [May 2023] Started my internship at <a href="https://bard.google.com/"
+                            target="_blank">Google Bard</a> working on theory-of-mind capabilities in LLMs!
+                        </li>
+                        <li>
+                            [April 2023] Our <a href = "https://tomworkshop.github.io/" target="_blank">Theory-of-Mind workshop</a> 
+                            is accepted in ICML 2023! Hope to see you in Honolulu in July!
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row" id="publications">
+                <div class="col">
+                    <h2>Selected Publications </h2>
+                    <p>(Full list see 
+                        <a href="https://scholar.google.com/citations?user=13PGDZsAAAAJ&hl=en" target="_blank">Google Scholar</a>)</p>
+                    <ul class="pl">
+                        <li>
+                            <a href="https://arxiv.org/pdf/2212.10060.pdf" target="_blank">
+                                <b>I Cast Detect Thoughts: Learning to Converse and Guide with Intents and
+                                    Theory-of-Mind in Dungeons and Dragons</b>
+                            </a>
+                            <br/>
+                            <b>Pei Zhou</b>,
+                            <a href="https://zhu.codes/" target="_blank">Andrew Zhu</a>,
+                            <a href="https://jennhu.github.io/" target="_blank">Jennifer Hu</a>,
+                            <a href="https://www.jaypujara.org/"
+                        target="_blank">Jay Pujara</a>,
+                        <a href="https://shanzhenren.github.io/"
+                        target="_blank">Xiang Ren</a>,
+                            <a href="https://www.cis.upenn.edu/~ccb/" target="_blank">Chris Callison-Burch</a>,
+                            <a href="https://homes.cs.washington.edu/~yejin/" target="_blank">Yejin Choi</a>,
+                            and <a href="http://prithvirajva.com/"
+                            target="_blank">Prithviraj Ammanabrolu</a>.
+                            <br/>
+                            In <a href = "https://2023.aclweb.org/" 
+                            target="_blank"><b>ACL</b></a>, 2023.
+                            <br/>
+                            <!-- [<a href="papers/dasigi+liu+marasovic+smith+gardner.emnlp2019.bib" target="_blank">bib</a>] -->
+                            [<a href="#" onclick="$('#dnd_acl2023_abstract').toggle();return false;">abstract</a>]
+                            <!-- [<a href="papers/dasigi+liu+marasovic+smith+gardner.emnlp2019.poster.pdf" target="_blank">poster</a>]
+                            [<a href="https://quoref-dataset.s3-us-west-2.amazonaws.com/train_and_dev/quoref-train-dev-v0.1.zip" target="_blank">dataset</a>]
+                            [<a href="https://leaderboard.allenai.org/quoref" target="_blank">leaderboard</a>] -->
+                            <div id="dnd_acl2023_abstract" class="abstract" style="display:none;">
+                                <p>
+                                    We propose a novel task, G4C, to study
+                                    teacher-student natural language interactions
+                                    in a goal-driven and grounded environment.
+                                    Dungeons and Dragons (D&D), a role-playing
+                                    game, provides an ideal setting to investigate
+                                    such interactions. Here, the Dungeon Master
+                                    (DM), i.e., the teacher, guides the actions of
+                                    several players—students, each with their own
+                                    personas and abilities—to achieve shared goals
+                                    grounded in a fantasy world. Our approach is
+                                    to decompose and model these interactions into
+                                    (1) the DM’s intent to guide players towards
+                                    a given goal; (2) the DM’s guidance utterance
+                                    to the players expressing this intent; and (3) a
+                                    theory-of-mind (ToM) model that anticipates
+                                    the players’ reaction to the guidance one turn
+                                    into the future. We develop a novel reinforcement learning (RL) method for training a DM
+                                    that generates guidance for players by rewarding utterances where the intent matches the
+                                    ToM-anticipated player actions. Human and
+                                    automated evaluations show that a DM trained
+                                    to explicitly model intents and incorporate ToM
+                                    of the players using RL generates better-quality
+                                    guidance that is 3x more likely to fulfill the
+                                    DM’s intent than a vanilla natural language
+                                    generation (NLG) approach.
+                                </p>
+                            </div>
+                        </li>
+                        <br/>
+                        <li>
+                            <a href="https://arxiv.org/pdf/2211.09267.pdf" target="_blank">
+                                <b>Reflect, Not Reflex: Inference-Based Common Ground Improves
+                                    Dialogue Response Quality</b>
+                            </a>
+                            <br/>
+                            <b>Pei Zhou</b>,
+                            <a href="https://justin-cho.com/" target="_blank">Hyundong Cho</a>,
+                            <a href="https://www.linkedin.com/in/pegah-jandaghi-19a87489/" target="_blank">Pegah Jandaghi</a>,
+                            <a href="https://www.danny-lee.info/" target="_blank">Dong-Ho Lee</a>,
+                            <a href="https://yuchenlin.xyz/" target="_blank">Bill Yuchen Lin</a>,
+                            <a href="https://www.jaypujara.org/"
+                        target="_blank">Jay Pujara</a>, and
+                        <a href="https://shanzhenren.github.io/"
+                        target="_blank">Xiang Ren</a>.
+                            <br/>
+                            In <a href="https://2022.emnlp.org/" target="_blank">
+                                <b>EMNLP</b></a>, 2022.
+                            <br/>
+                            <!-- [<a href="papers/logan+liu+peters+gardner+singh.acl2019.bib" target="_blank">bib</a>] -->
+                            [<a href="#" onclick="$('#reflect_emnlp2022_abstract').toggle();return false;">abstract</a>]
+                            <!-- [<a href="papers/logan+liu+peters+gardner+singh.acl2019.poster.pdf" target="_blank">poster</a>] -->
+                            [<a href="https://inklab.usc.edu/Reflect/" target="_blank">project page</a>]
+                            [<a href="https://github.com/INK-USC/Reflect" target="_blank">dataset</a>]
+                            <div id="reflect_emnlp2022_abstract" class="abstract" style="display:none;">
+                                <p>
+                                    Human communication relies on common
+                                    ground (CG), the mutual knowledge and beliefs shared by participants, to produce coherent and interesting conversations. In this paper, we demonstrate that current response generation (RG) models produce generic and dull
+                                    responses in dialogues because they act reflexively, failing to explicitly model CG, both
+                                    due to the lack of CG in training data and
+                                    the standard RG training procedure. We introduce Reflect, a dataset that annotates dialogues
+                                    with explicit CG (materialized as inferences
+                                    approximating shared knowledge and beliefs)
+                                    and solicits 9k diverse human-generated responses each following one common ground.
+                                    Using Reflect, we showcase the limitations of
+                                    current dialogue data and RG models: less
+                                    than half of the responses in current data is
+                                    rated as high quality (sensible, specific, and interesting) and models trained using this data
+                                    have even lower quality, while most Reflect responses are judged high quality. Next, we analyze whether CG can help models produce better quality responses by using Reflect CG to
+                                    guide RG models. Surprisingly, we find that
+                                    simply prompting GPT3 to “think” about CG
+                                    generates 30% more quality responses, showing promising benefits to integrating CG into
+                                    the RG process.
+                                </p>
+                            </div>
+                        </li>
+                        <br/>
+                        <li>
+                            <a href="https://arxiv.org/pdf/2110.08501.pdf" target="_blank">
+                                <b>Think Before You Speak: Explicitly Generating Implicit Commonsense
+                                    Knowledge for Response Generation</b>
+                            </a>
+                            <br/>
+                            <b>Pei Zhou</b>,
+                            <a href="https://scholar.google.co.in/citations?hl=en&user=JD6DMWcAAAAJ&view_op=list_works" target="_blank">Karthik Gopalakrishnan</a>,
+                            <a href="https://scholar.google.com/citations?user=MTG_OgQAAAAJ&hl=en" target="_blank">Behnam Hedayatnia</a>,
+                            <a href="https://seokhwankim.github.io/" target="_blank">Seokhwan Kim</a>,
+                            <a href="https://www.jaypujara.org/"
+                        target="_blank">Jay Pujara</a>,
+                            <a href="https://shanzhenren.github.io/"
+                        target="_blank">Xiang Ren</a>,
+                            <a href="https://scholar.google.com/citations?user=w90wOucAAAAJ&hl=en"
+                        target="_blank">Yang Liu</a>, and
+                            <a href="https://scholar.google.com/citations?user=GMcL_9kAAAAJ&hl=en" target="_blank">Dilek Hakkani-Tur</a>.
 
-        <p><em>View the <a href="http://github.github.com/github-flavored-markdown/sample_content.html">source of this content</a>.</em></p>
+                            <br/>
+                            In <a href="https://www.2022.aclweb.org/" target="_blank">
+                                <b>ACL</b></a>, 2022.
+                            <br/>
+                            <!-- [<a href="papers/liu+gardner+belinkov+peters+smith.naacl2019.bib" target="_blank">bib</a>] -->
+                            [<a href="#" onclick="$('#tbs_acl2022_abstract').toggle();return false;">abstract</a>]
+                            <!-- [slides:
+                            <a href="papers/liu+gardner+belinkov+peters+smith.naacl2019.slides.pdf" target="_blank">pdf</a>,
+                            <a href="papers/liu+gardner+belinkov+peters+smith.naacl2019.slides.with_speaker_notes.pdf" target="_blank">pdf with notes</a>,
+                            <a href="papers/liu+gardner+belinkov+peters+smith.naacl2019.slides.key" target="_blank">key</a>]
+                            [<a href="papers/contextual-repr-analysis" target="_blank">code</a>] -->
+                            <div id="tbs_acl2022_abstract" class="abstract" style="display:none;">
+                                <p>
+                                    Implicit knowledge, such as common sense,
+                                    is key to fluid human conversations. Current neural response generation (RG) models are trained to generate responses directly,
+                                    omitting unstated implicit knowledge. In
+                                    this paper, we present Think-Before-Speaking
+                                    (TBS), a generative approach to first externalize implicit commonsense knowledge (think)
+                                    and use this knowledge to generate responses
+                                    (speak). We expect that externalizing implicit knowledge allows more efficient learning, produces more informative responses, and
+                                    enables more explainable models. We analyze different choices to collect knowledgealigned dialogues, represent implicit knowledge, and transition between knowledge and
+                                    dialogues. Empirical results show TBS models outperform end-to-end and knowledgeaugmented RG baselines on most automatic
+                                    metrics and generate more informative, specific, and commonsense-following responses,
+                                    as evaluated by human annotators. TBS also
+                                    generates knowledge that makes sense and is
+                                    relevant to the dialogue around 85% of the
+                                    time.
+                                </p>
+                            </div>
+                        </li>
+                        <br/>
+                        <li>
+                            <a href="https://arxiv.org/pdf/2104.09574.pdf" target="_blank">
+                                <b>Probing Commonsense Explanation in Dialogue Response Generation</b>
+                            </a>
+                            <br/>
+                            <b>Pei Zhou</b>,
+                            <a href="https://www.linkedin.com/in/pegah-jandaghi-19a87489/" target="_blank">Pegah Jandaghi</a>,
+                            <a href="https://justin-cho.com/" target="_blank">Hyundong Cho</a>,
+                            <a href="https://yuchenlin.xyz/" target="_blank">Bill Yuchen Lin</a>,
+                            <a href="https://www.jaypujara.org/"
+                        target="_blank">Jay Pujara</a>, and
+                            <a href="https://shanzhenren.github.io/"
+                        target="_blank">Xiang Ren</a>.
+                            <br/>
+                            In <a href="https://2021.emnlp.org/" target="_blank">
+                                <b>EMNLP-Findings</b></a>, 2021.
+                            <br/>
+                            <!-- [<a href="papers/liu+schwartz+smith.naacl2019.bib" target="_blank">bib</a>] -->
+                            [<a href="#" onclick="$('#cedar_emnlp2021_abstract').toggle();return false;">abstract</a>]
+                            <!-- [slides:
+                            <a href="papers/liu+schwartz+smith.naacl2019.slides.pdf" target="_blank">pdf</a>,
+                            <a href="papers/liu+schwartz+smith.naacl2019.slides.with_speaker_notes.pdf" target="_blank">pdf with notes</a>,
+                            <a href="papers/liu+schwartz+smith.naacl2019.slides.key" target="_blank">key</a>] -->
+                            <!-- [<a href="papers/inoculation-by-finetuning" target="_blank">code</a>] -->
+                            <div id="cedar_emnlp2021_abstract" class="abstract" style="display:none;">
+                                <p>
+                                    Humans use commonsense reasoning (CSR)
+                                    implicitly to produce natural and coherent responses in conversations. Aiming to close
+                                    the gap between current response generation
+                                    (RG) models and human communication abilities, we want to understand why RG models
+                                    respond as they do by probing RG model’s
+                                    understanding of commonsense reasoning that
+                                    elicits proper responses. We formalize the
+                                    problem by framing commonsense as a latent
+                                    variable in the RG task and using explanations
+                                    for responses as textual form of commonsense.
+                                    We collect 6k annotated explanations justifying responses from four dialogue datasets and
+                                    ask humans to verify them and propose two
+                                    probing settings to evaluate RG models’ CSR
+                                    capabilities. Probing results show that models fail to capture the logical relations between
+                                    commonsense explanations and responses and
+                                    fine-tuning on in-domain data and increasing
+                                    model sizes do not lead to understanding of
+                                    CSR for RG. We hope our study motivates
+                                    more research in making RG models emulate the human reasoning process in pursuit of
+                                    smooth human-AI communication.
+                                </p>
+                            </div>
+                        </li>
+                        <br/>
+                        <li>
+                            <a href="https://arxiv.org/pdf/2103.11320.pdf" target="_blank">
+                                <b>Lawyers are Dishonest? Quantifying Representational Harms in
+                                    Commonsense Knowledge Resources</b>
+                            </a>
+                            <br/>
+                            <a href="https://ninarehm.github.io/" target="_blank">Ninareh Mehrabi*</a>,
+                            <b>Pei Zhou* (equal contribution)</b>,
+                            <a href="https://www.isi.edu/~fredmors/" target="_blank">Fred Morstatter</a>,
+                            <a href="https://www.jaypujara.org/"
+                        target="_blank">Jay Pujara</a>,
+                            <a href="https://shanzhenren.github.io/"
+                        target="_blank">Xiang Ren</a>,
+                            and <a href="https://www.isi.edu/people/galstyan/about" target="_blank">Aram Galstyan</a>.
+                            <br/>
+                            In <a href="https://2021.emnlp.org/" target="_blank">
+                                <b>EMNLP</b></a>, 2021.
+                            <br/>
+                            <!-- [<a href="papers/liu+levy+schwartz+tan+smith.repl4nlp2018.bib" target="_blank">bib</a>] -->
+                            [<a href="#" onclick="$('#bias_emnlp2021_abstract').toggle();return false;">abstract</a>]
+                            <!-- [<a href="papers/liu+levy+schwartz+tan+smith.repl4nlp2018.slides.pdf" target="_blank">(short) slides</a>]
+                            [<a href="papers/liu+levy+schwartz+tan+smith.repl4nlp2018.poster.pdf" target="_blank">poster</a>]
+                            [<a href="papers/lstms-exploit-linguistic-attributes" target="_blank">code</a>] -->
+                            <div id="bias_emnlp2021_abstract" class="abstract" style="display:none;">
+                                <p>
+                                    Numerous natural language processing models have tried injecting commonsense by using the ConceptNet knowledge base to improve performance on different tasks. ConceptNet, however, is mostly crowdsourced from humans and may reflect human biases such as "lawyers are dishonest." It is important that these biases are not conflated with the notion of commonsense. We study this missing yet important problem by first defining and quantifying biases in ConceptNet as two types of representational harms: overgeneralization of polarized perceptions and representation disparity. We find that ConceptNet contains severe biases and disparities across four demographic categories. In addition, we analyze two downstream models that use ConceptNet as a source for commonsense knowledge and find the existence of biases in those models as well. We further propose a filtered-based bias-mitigation approach and examine its effectiveness. We show that our mitigation approach can reduce the issues in both resource and models but leads to a performance drop, leaving room for future work to build fairer and stronger commonsense models.
+                                </p>
+                            </div>
+                        </li>
+                        <br/>
+                        <li>
+                            <a href="https://arxiv.org/pdf/2005.00782.pdf" target="_blank">
+                                <b>RICA: Evaluating Robust Inference Capabilities
+                                    Based on Commonsense Axioms</b>
+                            </a>
+                            <br/>
+                            <b>Pei Zhou</b>,
+                            <a href="https://www.linkedin.com/in/rahul-khanna-1b97317a/" target="_blank">Rahul Khanna</a>,
+                            Seyeon Lee,
+                            <a href="https://yuchenlin.xyz/" target="_blank">Bill Yuchen Lin</a>,
+                            Daniel Ho,
+                            <a href="https://www.jaypujara.org/"
+                        target="_blank">Jay Pujara</a>, and
+                            <a href="https://shanzhenren.github.io/"
+                        target="_blank">Xiang Ren</a>,
 
-        <p>Let's get the whole "linebreak" thing out of the way. The next paragraph contains two phrases separated by a single newline character:</p>
+                            <br/>
+                            In <a href="https://2021.emnlp.org/" target="_blank">
+                                <b>EMNLP</b></a>, 2021.
+                            <br/>
+                            <!-- [<a href="papers/allennlp.nlposs2018.bib" target="_blank">bib</a>] -->
+                            [<a href="#" onclick="$('#rica_emnlp2021_abstract').toggle();return false;">abstract</a>]
+                            [<a href="https://inklab.usc.edu/RICA/" target="_blank">project page</a>]
+                            [<a href="https://github.com/shaoxia57/RICA" target="_blank">data</a>]
+                            <div id="rica_emnlp2021_abstract" class="abstract" style="display:none;">
+                                <p>
+                                    Pre-trained language models (PTLMs) have
+                                    achieved impressive performance on commonsense inference benchmarks, but their ability
+                                    to employ commonsense to make robust inferences, which is crucial for effective communications with humans, is debated. In the pursuit
+                                    of advancing fluid human-AI communication,
+                                    we propose a new challenge, RICA: Robust
+                                    Inference using Commonsense Axioms, that
+                                    evaluates robust commonsense inference despite textual perturbations. To generate data
+                                    for this challenge, we develop a systematic and
+                                    scalable procedure using commonsense knowledge bases and probe PTLMs across two different evaluation settings. Extensive experiments on our generated probe sets with more
+                                    than 10k statements show that PTLMs perform no better than random guessing on the
+                                    zero-shot setting, are heavily impacted by statistical biases, and are not robust to perturbation attacks. We also find that fine-tuning
+                                    on similar statements offer limited gains, as
+                                    PTLMs still fail to generalize to unseen inferences. Our new large-scale benchmark exposes a significant gap between PTLMs and
+                                    human-level language understanding and offers a new challenge for PTLMs to demonstrate commonsense.
+                                </p>
+                            </div>
+                        </li>
+                        <br/>
+                        <li>
+                            <a href="https://arxiv.org/pdf/1911.03705.pdf" target="_blank">
+                                <b>CommonGen: A Constrained Text Generation Challenge
+                                    for Generative Commonsense Reasoning</b>
+                            </a>
+                            <br/>
+                            <a href="https://yuchenlin.xyz/" target="_blank">Bill Yuchen Lin</a>,
+                            <a href="https://michaelzhouwang.github.io/" target="_blank">Wangchunshu Zhou</a>,
+                            Ming Shen,
+                            <b>Pei Zhou</b>,
+                            <a href="https://www.chandrab.page/" target="_blank">Chandra Bhagavatula</a>,
+                            <a href="https://homes.cs.washington.edu/~yejin/"
+                        target="_blank">Yejin Choi</a>, and
+                            <a href="https://shanzhenren.github.io/"
+                        target="_blank">Xiang Ren</a>.
 
-        <p>Roses are red<br>
-        Violets are blue</p>
-
-        <p>The next paragraph has the same phrases, but now they are separated by two spaces and a newline character:</p>
-
-        <p>Roses are red<br><br>
-        Violets are blue</p>
-
-        <p>Oh, and one thing I cannot stand is the mangling of words with multiple underscores in them like perform_complicated_task or do_this_and_do_that_and_another_thing.</p>
-
-        <h2>A bit of the GitHub spice</h2>
-
-        <p>In addition to the changes in the previous section, certain references are auto-linked:</p>
-
-        <ul>
-          <li>SHA: be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2</li>
-          <li>User@SHA ref: <a href="https://github.com/mojombo/product/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo@<tt>be6a8cc</tt></a></li>
-          <li>User/Project@SHA: <a href="https://github.com/mojombo/god/commit/be6a8cc1c1ecfe9489fb51e4869af15a13fc2cd2" class="commit-link">mojombo/god@<tt>be6a8cc</tt></a></li>
-          <li>#Num: <a href="https://github.com/github/product/issues/1" class="issue-link" title="Baseline: What is up in the air right now?">#1</a></li>
-          <li>User/#Num: mojombo#1</li>
-          <li>User/Project#Num: <a href="https://github.com/mojombo/god/issues/1" class="issue-link" title="The server is not available (or you do not have permissions to access it)">mojombo/god#1</a></li>
-        </ul>
-
-        <p>These are dangerous goodies though, and we need to make sure email addresses don't get mangled:</p>
-
-        <p>My email addy is <a href="mailto:tom@github.com">tom@github.com</a>.</p>
-
-        <h2>Math is hard, let's go shopping</h2>
-
-        <p>In first grade I learned that 5 &gt; 3 and 2 &lt; 7. Maybe some arrows. 1 -&gt; 2 -&gt; 3. 9 &lt;- 8 &lt;- 7.</p>
-
-        <p>Triangles man! a^2 + b^2 = c^2</p>
-
-        <h2>We all like making lists</h2>
-
-        <p>The above header should be an H2 tag. Now, for a list of fruits:</p>
-
-        <ul>
-          <li>Red Apples</li>
-          <li>Purple Grapes</li>
-          <li>Green Kiwifruits</li>
-        </ul>
-
-        <p>Let's get crazy:</p>
-
-        <ol>
-          <li>
-            <p>This is a list item with two paragraphs. Lorem ipsum dolor<br>
-            sit amet, consectetuer adipiscing elit. Aliquam hendrerit<br>
-            mi posuere lectus.</p>
-
-            <p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet<br>
-            vitae, risus. Donec sit amet nisl. Aliquam semper ipsum<br>
-            sit amet velit.</p>
-          </li>
-          <li><p>Suspendisse id sem consectetuer libero luctus adipiscing.</p></li>
-        </ol>
-
-        <p>What about some code <strong>in</strong> a list? That's insane, right?</p>
-
-        <ol>
-          <li>
-            <p>In Ruby you can map like this:</p>
-
-            <pre><code>['a', 'b'].map { |x| x.uppercase }</code></pre>
-          </li>
-          <li>
-            <p>In Rails, you can do a shortcut:</p>
-
-            <pre><code>['a', 'b'].map(&amp;:uppercase)</code></pre>
-          </li>
-        </ol>
-
-        <p>Some people seem to like definition lists</p>
-
-        <dl>
-          <dt>Lower cost</dt>
-          <dd>The new version of this product costs significantly less than the previous one!</dd>
-          <dt>Easier to use</dt>
-          <dd>We've changed the product so that it's much easier to use!</dd>
-        </dl>
-
-        <h2>I am a robot</h2>
-
-        <p>Maybe you want to print <code>robot</code> to the console 1000 times. Why not?</p>
-
-        <pre><code>def robot_invasion
-  puts("robot " * 1000)
-end
-</code></pre>
-
-        <p>You see, that was formatted as code because it's been indented by four spaces.</p>
-
-        <p>How about we throw some angle braces and ampersands in there?</p>
-
-        <pre><code>&lt;div class="footer"&gt;
-    &amp;copy; 2004 Foo Corporation
-&lt;/div&gt;
-</code></pre>
-
-        <h2>Set in stone</h2>
-
-        <p>Preformatted blocks are useful for ASCII art:</p>
-
-        <pre>             ,-.
-    ,     ,-.   ,-.
-   / \   (   )-(   )
-   \ |  ,.&gt;-(   )-&lt;
-    \|,' (   )-(   )
-     Y ___`-'   `-'
-     |/__/   `-'
-     |
-     |
-     |    -hrr-
-  ___|_____________
-</pre>
-
-        <h2>Playing the blame game</h2>
-
-        <p>If you need to blame someone, the best way to do so is by quoting them:</p>
-
-        <blockquote>
-        <p>I, at any rate, am convinced that He does not throw dice.</p>
-        </blockquote>
-
-        <p>Or perhaps someone a little less eloquent:</p>
-
-        <blockquote>
-        <p>I wish you'd have given me this written question ahead of time so I<br>
-        could plan for it... I'm sure something will pop into my head here in<br>
-        the midst of this press conference, with all the pressure of trying to<br>
-        come up with answer, but it hadn't yet...</p>
-
-        <p>I don't want to sound like<br>
-        I have made no mistakes. I'm confident I have. I just haven't - you<br>
-        just put me under the spot here, and maybe I'm not as quick on my feet<br>
-        as I should be in coming up with one.</p>
-        </blockquote>
-
-        <h2>Table for two</h2>
-
-        <table>
-          <tbody>
-        <tr>
-            <th>ID</th>
-        <th>Name</th>
-        <th>Rank</th>
-          </tr>
-          <tr>
-            <td>1</td>
-        <td>Tom Preston-Werner</td>
-        <td>Awesome</td>
-          </tr>
-          <tr>
-            <td>2</td>
-        <td>Albert Einstein</td>
-        <td>Nearly as awesome</td>
-          </tr>
-        </tbody>
-        </table>
-
-        <h2>Crazy linking action</h2>
-
-        <p>I get 10 times more traffic from <a href="http://google.com/" title="Google">Google</a> than from<br>
-        <a href="http://search.yahoo.com/" title="Yahoo Search">Yahoo</a> or <a href="http://search.msn.com/" title="MSN Search">MSN</a>.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="http://github.com/orderedlist">Steve Smith</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-  </body>
+                            <br/>
+                            In <a href="https://2020.emnlp.org/" target="_blank">
+                                <b>EMNLP-Findings</b></a>, 2020.
+                            <br/>
+                            <!-- [<a href="papers/liu+levow+smith.sclem2018.bib" target="_blank">bib</a>] -->
+                            [<a href="#" onclick="$('#commongen_emnlp2020_abstract').toggle();return false;">abstract</a>]
+                            <!-- [<a href="papers/liu+levow+smith.sclem2018.poster.pdf" target="_blank">poster</a>] -->
+                            [<a href="https://inklab.usc.edu/CommonGen/" target="_blank">project page</a>]
+                            [<a href="https://huggingface.co/datasets/viewer/?dataset=common_gen" target="_blank">data</a>]
+                            <div id="commongen_emnlp2020_abstract" class="abstract" style="display:none;">
+                                <p>
+                                    Recently, large-scale pretrained language models have demonstrated impressive performance
+                                    on several commonsense-reasoning benchmark datasets. However, building machines
+                                    with commonsense to compose realistically
+                                    plausible sentences remains challenging. In
+                                    this paper, we present a constrained text generation task, COMMONGEN associated with a
+                                    benchmark dataset, to explicitly test machines
+                                    for the ability of generative commonsense reasoning. Given a set of common concepts (e.g.,
+                                    {dog, frisbee, catch, throw}); the task is to generate a coherent sentence describing an everyday scenario using these concepts (e.g., “a man
+                                    throws a frisbee and his dog catches it”).
+                                    The COMMONGEN task is challenging because it inherently requires 1) relational reasoning with background commonsense knowledge, and 2) compositional generalization ability to work on unseen concept combinations.
+                                    Our dataset, constructed through a combination of crowdsourced and existing caption corpora, consists of 79k commonsense descriptions over 35k unique concept-sets. Experiments show that there is a large gap between
+                                    state-of-the-art text generation models (e.g.,
+                                    T5) and human performance. Furthermore, we
+                                    demonstrate that the learned generative commonsense reasoning capability can be transferred to improve downstream tasks by generating additional context.
+                                </p>
+                            </div>
+                        </li>
+                        <br/>
+                        <li>
+                            <a href="https://arxiv.org/pdf/1909.02224.pdf" target="_blank">
+                                <b>Examining Gender Bias in Languages with Grammatical Gender</b>
+                            </a>
+                            <br/>
+                            <b>Pei Zhou</b>,
+                            <a href="https://weijia-shi.netlify.app/" target="_blank">Weijia Shi</a>,
+                            <a href="https://jyzhao.net/" target="_blank">Jieyu Zhao</a>,
+                            <a href="https://khhuang.me/" target="_blank">Kuan-Hao Huang</a>,
+                            <a href="https://muhaochen.github.io/" target="_blank">Muhao Chen</a>,
+                            <a href="https://rycolab.io/authors/ryan/" target="_blank">Ryan Cotterell</a>,
+                            and <a href="http://web.cs.ucla.edu/~kwchang/" target="_blank">Kai-Wei Chang</a>.
+                            <br/>
+                            In <a href="https://2019.emnlp.org/" target="_blank">
+                                <b>EMNLP-IJCNLP</b></a>, 2019.
+                            <br/>
+                            <!-- [<a href="papers/welbl+liu+gardner.wnut2017.bib" target="_blank">bib</a>] -->
+                            [<a href="#" onclick="$('#bias_embedding_emnlp2019_abstract').toggle();return false;">abstract</a>]
+                            [<a href="https://github.com/shaoxia57/Bias_in_Gendered_Languages" target="_blank">code</a>]
+                            <!-- [<a href="papers/sciq/welbl+liu+gardner.wnut2017.poster.pdf" target="_blank">poster</a>] -->
+                            <div id="bias_embedding_emnlp2019_abstract" class="abstract" style="display:none;">
+                                <p>
+                                    Recent studies have shown that word embeddings exhibit gender bias inherited from the
+                                    training corpora. However, most studies to
+                                    date have focused on quantifying and mitigating such bias only in English. These analyses cannot be directly extended to languages
+                                    that exhibit morphological agreement on gender, such as Spanish and French. In this paper,
+                                    we propose new metrics for evaluating gender
+                                    bias in word embeddings of these languages
+                                    and further demonstrate evidence of gender
+                                    bias in bilingual embeddings which align these
+                                    languages with English. Finally, we extend an
+                                    existing approach to mitigate gender bias in
+                                    word embeddings under both monolingual and
+                                    bilingual settings. Experiments on modified
+                                    Word Embedding Association Test, word similarity, word translation, and word pair translation tasks show that the proposed approaches
+                                    effectively reduce the gender bias while preserving the utility of the embeddings.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <h2>Miscellany</h2>
+                    <ul>
+                        <li>
+                            I play the piano and am a keyboardist in UCLA Accoustic Guitar Band called Parked in 4 East
+                        </li>
+                        <li>
+                            I was born in Chengdu, a great city for vacation and spicy food lovers :)
+                        </li>
+                        <li>
+                            Currently super into camping/glamping!
+                        </li>
+                        <li>
+                            I'm into all kinds of RPGs from tabletop to ffxiv
+                        </li>
+                    
+                        <li>
+                            Thanks to <a href="https://nelsonliu.me/"
+                            target="_blank">Nelson Liu</a> for sharing source code of the website!
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <footer class="pt-2 my-md-2 pt-md-2 border-top">
+                <div class="row justify-content-center">
+                    <div class="col-6 col-md text-left align-self-center">
+                        <p class="h5 text-muted">
+                            © Pei Zhou, 2023
+                        </p>
+                    </div>
+                    <!-- <div class="col-6 col-md text-right">
+                        <a href="https://nlp.stanford.edu" class="image-link">
+                            <img class="mr-4" src="img/stanford_nlp_logo.gif" alt="Stanford NLP Group logo." height="75">
+                        </a>
+                        <a href="http://ai.stanford.edu" class="image-link">
+                            <img src="img/stanford_ai_logo.jpg" alt="Stanford AI Lab logo." height="75">
+                        </a>
+                    </div> -->
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
