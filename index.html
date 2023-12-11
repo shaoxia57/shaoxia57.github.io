@@ -104,7 +104,7 @@
                         </li>
                         <li>
                             [September 2023] Started my collaboration with <a href="https://deepmind.google/"
-                            target="_blank">Google DeepMind</a> working on LLM meta-task reasoning with structures!
+                            target="_blank">Google DeepMind</a> working on LLM meta-task reasoning!
                         </li>
 
                         <li>
@@ -147,6 +147,119 @@
                     <p>(Full list see 
                         <a href="https://scholar.google.com/citations?user=13PGDZsAAAAJ&hl=en" target="_blank">Google Scholar</a>)</p>
                     <ul class="pl">
+                        <li>
+                            <a href="https://arxiv.org/pdf/2310.03051.pdf" target="_blank">
+                                <b>How FaR Are Large Language Models From Agents with Theory-of-Mind?</b>
+                            </a>
+                            <br/>
+                            <b>Pei Zhou</b>,
+                            <a href="https://madaan.github.io/" target="_blank">Aman Madaan</a>,
+                            <a href="https://www.linkedin.com/in/srividya-pranavi-potharaju" target="_blank">Srividya Pranavi Potharaju</a>,
+                            <a href="https://www.linkedin.com/in/aditya2211/" target="_blank">Aditya Gupta</a>,
+                            <a href="https://www.empiricallykev.com/"
+                        target="_blank">Kevin R. McKee</a>,
+                        <a href="https://ariholtzman.com/"
+                        target="_blank">Ari Holtzman</a>,
+                            <a href="https://www.jaypujara.org/"
+                        target="_blank">Jay Pujara</a>,
+                        <a href="https://shanzhenren.github.io/"
+                        target="_blank">Xiang Ren</a>,
+                        <a href="https://swarooprm.github.io/"
+                                target="_blank">Swaroop Mishra</a>
+                            <a href="http://www.aidanematzadeh.me/" target="_blank">Aida Nematzadeh</a>,
+                            <a href="http://shyamupa.com/"
+                      target="_blank">Shyam Upadhyay</a>, and <a href="https://www.manaalfaruqui.com/"
+                      target="_blank">Manaal Faruqui</a>.
+                            <br/>
+                            Preprint, 2023.
+                            <br/>
+                            <!-- [<a href="papers/dasigi+liu+marasovic+smith+gardner.emnlp2019.bib" target="_blank">bib</a>] -->
+                            [<a href="#" onclick="$('#t4d_far_abstract').toggle();return false;">abstract</a>]
+                            <!-- [<a href="https://www.isi.edu/news/52601/choose-your-own-adventure-teaching-machines-to-think-before-they-speak/" target="_blank">media coverage</a>] -->
+                            <!-- [<a href="papers/dasigi+liu+marasovic+smith+gardner.emnlp2019.poster.pdf" target="_blank">poster</a>]
+                            [<a href="https://quoref-dataset.s3-us-west-2.amazonaws.com/train_and_dev/quoref-train-dev-v0.1.zip" target="_blank">dataset</a>]
+                            [<a href="https://leaderboard.allenai.org/quoref" target="_blank">leaderboard</a>] -->
+                            <div id="t4d_far_abstract" class="abstract" style="display:none;">
+                                <p>
+                                    Thinking is for Doing. Humans can infer other people’s mental states from
+                                    observations–an ability called Theory-of-Mind (ToM)–and subsequently act pragmatically on those inferences. Existing question answering benchmarks such as
+                                    ToMi ask models questions to make inferences about beliefs of characters in a story,
+                                    but do not test whether models can then use these inferences to guide their actions.
+                                    We propose a new evaluation paradigm for large language models (LLMs): Thinking for Doing (T4D), which requires models to connect inferences about others’
+                                    mental states to actions in social scenarios. Experiments on T4D demonstrate that
+                                    LLMs such as GPT-4 and PaLM 2 seemingly excel at tracking characters’ beliefs
+                                    in stories, but they struggle to translate this capability into strategic action.
+
+                                    Our analysis reveals the core challenge for LLMs lies in identifying the implicit
+                                    inferences about mental states without being explicitly asked about as in ToMi,
+                                    that lead to choosing the correct action in T4D. To bridge this gap, we introduce
+                                    a zero-shot prompting framework, Foresee and Reflect (FaR), which provides
+                                    a reasoning structure that encourages LLMs to anticipate future challenges and reason about potential actions. FaR boosts GPT-4’s performance from 50% to 71%
+                                    on T4D, outperforming other prompting methods such as Chain-of-Thought and
+                                    Self-Ask. Moreover, FaR generalizes to diverse out-of-distribution story structures
+                                    and scenarios that also require ToM inferences to choose an action, consistently
+                                    outperforming other methods including few-shot in-context learning.
+                                </p>
+                            </div>
+                        </li>
+                    </br>
+                    <li>
+                        <a href="https://arxiv.org/pdf/2212.10465.pdf" target="_blank">
+                            <b>SODA: Million-scale Dialogue Distillation with Social Commonsense Contextualization</b>
+                        </a>
+                        <br/>
+                        <a href="https://hyunw.kim/" target="_blank">Hyunwoo Kim</a>,
+                        <a href="https://jmhessel.com/" target="_blank">Jack Hessel</a>,
+                        <a href="https://liweijiang.me/" target="_blank">Liwei Jiang</a>,
+                        <a href="https://homes.cs.washington.edu/~pawest/"
+                        target="_blank">Peter West</a>,
+                        <a href="https://scholar.google.com/citations?user=ssYPSmkAAAAJ&hl=en"
+                        target="_blank">Ximing Lu</a>,
+                            <a href="https://yj-yu.github.io/home/"
+                        target="_blank">Youngjae Yu</a>,
+                        <b>Pei Zhou</b>,
+                    <a href="https://rlebras.github.io/"
+                    target="_blank">Ronan Le Bras</a>,
+                    <a href="https://www.malihealikhani.com/"
+                            target="_blank">Malihe Alikhani</a>
+                        <a href="https://vision.snu.ac.kr/gunhee/" target="_blank">Gunhee Kim</a>,
+                        <a href="https://maartensap.com/"
+                  target="_blank">Maarten Sap</a>, and <a href="https://homes.cs.washington.edu/~yejin/" target="_blank">Yejin Choi</a>.
+                        <br/>
+                        In <a href = "https://2023.emnlp.org/" 
+                        target="_blank"><b>EMNLP</b></a>, 2023.  <b>Outstanding Paper Award</b>
+                        <br/>
+                        <!-- [<a href="papers/dasigi+liu+marasovic+smith+gardner.emnlp2019.bib" target="_blank">bib</a>] -->
+                        [<a href="#" onclick="$('#soda_abstract').toggle();return false;">abstract</a>]
+                        <!-- [<a href="https://www.isi.edu/news/52601/choose-your-own-adventure-teaching-machines-to-think-before-they-speak/" target="_blank">media coverage</a>] -->
+                        <!-- [<a href="papers/dasigi+liu+marasovic+smith+gardner.emnlp2019.poster.pdf" target="_blank">poster</a>]
+                        [<a href="https://quoref-dataset.s3-us-west-2.amazonaws.com/train_and_dev/quoref-train-dev-v0.1.zip" target="_blank">dataset</a>]
+                        [<a href="https://leaderboard.allenai.org/quoref" target="_blank">leaderboard</a>] -->
+                        <div id="soda_abstract" class="abstract" style="display:none;">
+                            <p>
+                                Data scarcity has been a long standing issue in
+                                the field of open-domain social dialogue. To
+                                quench this thirst, we present SODA: the first
+                                publicly available, million-scale high-quality
+                                social dialogue dataset. By contextualizing social commonsense knowledge from a knowledge graph, we are able to distill an exceptionally broad spectrum of social interactions from
+                                a large language model. Human evaluation
+                                shows that conversations in SODA are more
+                                consistent, specific, and (surprisingly) natural
+                                than those in prior human-authored datasets
+
+                                Using SODA, we train COSMO: a generalizable conversation model that is significantly
+                                more natural and consistent on unseen datasets
+                                than best-performing conversation models (e.g.,
+                                GODEL, BlenderBot-1, Koala, Vicuna). Experiments reveal COSMO is sometimes even
+                                preferred to the original human-written gold
+                                responses. Additionally, our results shed light
+                                on the distinction between knowledge-enriched
+                                conversations and natural social chitchats. We
+                                make our data, models, and code public.
+                            </p>
+                        </div>
+                    </li>
+                </br>
                         <li>
                             <a href="https://arxiv.org/pdf/2212.10060.pdf" target="_blank">
                                 <b>I Cast Detect Thoughts: Learning to Converse and Guide with Intents and
